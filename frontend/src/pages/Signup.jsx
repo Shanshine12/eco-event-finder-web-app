@@ -83,12 +83,7 @@ return (
 
   {/* Top: Logo */}
   <div className="relative z-10 flex items-center gap-2">
-    <div className="w-8 h-8 rounded-lg bg-g-lime flex items-center justify-center flex-shrink-0">
- <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"
-              fill="#1B3A2D"/>
-      </svg>
-    </div>
+    <img src="/logo.png" alt="logo" className="w-7 h-7 object-contain" />
     <span className="font-mono font-bold text-g-lime text-sm">
       EcoEvent <span className="text-white font-normal">Finder</span>
     </span>
