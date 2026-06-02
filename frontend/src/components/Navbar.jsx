@@ -21,14 +21,7 @@ export default function Navbar({ bookmarkCount = 0, user, onLogout }) {
 
       {/* Logo */}
       <Link to="/" className="flex items-center gap-2 mr-auto no-underline">
-        <div className="w-7 h-7 rounded-lg bg-g-lime flex items-center justify-center">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"
-                  fill="#1B3A2D"/>
-            <path d="M8 12c0-2.21 1.79-4 4-4s4 1.79 4 4-1.79 4-4 4-4-1.79-4-4z"
-                  fill="#1B3A2D" opacity=".5"/>
-          </svg>
-        </div>
+        <img src="/logo.png" alt="logo" className="w-7 h-7 object-contain" />
         <span className="font-mono font-bold text-sm text-g-lime tracking-tight">
           EcoEvent <span className="text-white font-normal">Finder</span>
         </span>
