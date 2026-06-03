@@ -27,7 +27,7 @@ export default function Bookmark({ bookmarkedIds, onToggleBookmark, user }) {
   const [loading, setLoading] = useState(true)
 
 
-  useEffect(() => { load() }, [bookmarkedIds.length])
+  useEffect(() => { load() }, [bookmarkedIds.length]) // eslint-disable-line react-hooks/exhaustive-deps
 
 
   async function load() {
@@ -119,7 +119,9 @@ export default function Bookmark({ bookmarkedIds, onToggleBookmark, user }) {
                 {/* Thumbnail */}
                 <div className="w-24 flex-shrink-0 overflow-hidden">
                   {ev.image
-                  ? <img src={`http://localhost:8000${ev.image}`} className="w-full h-full object-cover" />
+                  ? <img src={imgSrc(ev.image)}
+                    alt={ev.title}
+                    className="w-full h-full object-cover" />
                   : <div className="w-full h-full" style={{ background: ev.cover_color || '...' }} />
                   }
                 </div>
