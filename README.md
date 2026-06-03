@@ -25,14 +25,21 @@ Auth: Token-based Authentication
 | Seraphine Michelle Atmadjie | Dev Team - UI/UX |
 | Shanaa Salsabil Erawan | Dev Team - Full Stack |
 
-🚀 How to Run
-Backend
+## 🚀 How to Run
+
+### Backend
+
+```bash
 cd backend
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+```
 
-Frontend
+### Frontend
+
+```bash
 cd frontend
 npm install
 npm start
+```
