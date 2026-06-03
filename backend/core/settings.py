@@ -10,7 +10,7 @@ ALLOWED_HOSTS = ['*']
 
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
-    "https://eco-event-finder-web-app.vercel.app/",
+    "https://eco-event-finder-web-app.vercel.app",
 ]
 
 INSTALLED_APPS = [
