@@ -9,7 +9,7 @@ const CHIPS = [
   { label: 'Semua',      value: null },
   { label: 'Upcoming',   value: { status: 'upcoming' } },
   { label: 'Ongoing',    value: { status: 'ongoing' } },
-  { label: 'Selesai',    value: { status: 'completed' } },
+  { label: 'Completed',    value: { status: 'completed' } },
   { label: 'Volunteer',  value: { category: 'Volunteer' } },
   { label: 'Workshop',   value: { category: 'Workshop' } },
   { label: 'Seminar',    value: { category: 'Seminar' } },
