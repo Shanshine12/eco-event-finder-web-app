@@ -15,3 +15,24 @@ Frontend: React.js + Tailwind CSS
 Backend: Django + Django REST Framework
 Database: MySQL
 Auth: Token-based Authentication
+
+👥 Team - Kelompok 6
+| Nama | Role |
+|------|------|
+| Allexandra Felissa Tioputri | Scrum Master |
+| Destyasha Adinda Safira | Dev Team - Frontend |
+| Najwa Zukhrufa | Dev Team - Frontend |
+| Seraphine Michelle Atmadjie | Dev Team - UI/UX |
+| Shanaa Salsabil Erawan | Dev Team - Full Stack |
+
+🚀 How to Run
+Backend
+cd backend
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+Frontend
+cd frontend
+npm install
+npm start
