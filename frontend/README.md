@@ -9,3 +9,9 @@ Bookmark event (login required)
 Registrasi langsung ke event
 Halaman "Event Saya" untuk pantau registrasi
 Admin panel untuk manage event
+
+🛠 Tech Stack
+Frontend: React.js + Tailwind CSS
+Backend: Django + Django REST Framework
+Database: MySQL
+Auth: Token-based Authentication
