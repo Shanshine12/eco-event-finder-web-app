@@ -8,7 +8,6 @@ SECRET_KEY = 'django-insecure-ganti-dengan-random-string-panjang'
 DEBUG = False
 ALLOWED_HOSTS = ['*']
 
-CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     "https://eco-event-finder-web-app.vercel.app",
 ]
