@@ -22,7 +22,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'cloudinary_storage',
     'django.contrib.staticfiles',
+    'cloudinary',
     'rest_framework',
     'corsheaders',
     'django_filters',
@@ -30,8 +32,6 @@ INSTALLED_APPS = [
     'bookmarks',
     'rest_framework.authtoken',
     'accounts',
-    'cloudinary_storage',
-    'cloudinary',
 ]
 
 CLOUDINARY_STORAGE = {
