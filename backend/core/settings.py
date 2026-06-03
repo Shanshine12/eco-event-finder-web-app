@@ -12,6 +12,9 @@ CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     "https://eco-event-finder-web-app.vercel.app",
 ]
+CSRF_TRUSTED_ORIGINS = [
+    'https://eco-event-finder-web-app-production.up.railway.app',
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
