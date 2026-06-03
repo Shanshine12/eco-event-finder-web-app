@@ -38,7 +38,7 @@ export default function MyRegistrations({ user }) {
       })
       .catch(() => setError(true))
       .finally(() => setLoading(false))
-  }, [])
+  }, [navigate])
 
   async function handleCancel(eventId) {
     if (!window.confirm('Yakin ingin membatalkan registrasi ini?')) return

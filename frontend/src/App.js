@@ -30,7 +30,7 @@ export default function App() {
     getBookmarks(sid)
       .then(res => setBookmarkedIds(res.data.map(b => b.event?.id).filter(Boolean)))
       .catch(() => {})
-  }, [])
+  }, [user])
 
   function handleLogin(userData) {
     setUser(userData)

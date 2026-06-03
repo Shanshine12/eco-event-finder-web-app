@@ -16,6 +16,10 @@ const ST_LABEL = {
   completed: 'Selesai',
 }
 
+function imgSrc(path) {
+  if (!path) return null
+  return path.startsWith('http') ? path : `http://localhost:8000${path}`
+}
 
 export default function Bookmark({ bookmarkedIds, onToggleBookmark, user }) {
   const navigate = useNavigate()
